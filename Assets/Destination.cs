@@ -11,7 +11,7 @@ public class Destination : MonoBehaviour
     public GameObject end;
 
     public Text population;
-    public static int populationCounter = 0;
+    public static int populationCounter = 1864;
 
     public GameObject heartSystem;
     private void OnCollisionEnter2D(Collision2D other) {

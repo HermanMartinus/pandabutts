@@ -56,7 +56,7 @@ public class Rayhand : MonoBehaviour
         GetComponent<SpringJoint2D>().distance = Mathf.Lerp(GetComponent<SpringJoint2D>().distance, magnitude*armLength, 10);
 
         if(!handPumped && canGrip) {
-            if((Input.GetAxis("GripRight") > 0 || Input.GetButton("joystick 6")) && !isLeft) {
+            if((Input.GetAxis("GripRight") > 0 || Input.GetButton("joystick 7")) && !isLeft) {
                 holding = true;
             } else if(!isLeft) {
                 holding = false;

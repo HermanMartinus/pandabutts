@@ -9,4 +9,9 @@ public class Reset : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+
+
+    public void Update() {
+
+    }
 }
